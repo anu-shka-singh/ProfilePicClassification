@@ -66,10 +66,10 @@ def scrape(words, date_since, numtweet,i, j):
 
 # Enter your own credentials obtained
 # from your developer account
-consumer_key = "nEtZNN4eL6d7bnA3zqz33QlRt"
-consumer_secret = "mmYVtq9V74KYI3hwCHixJX3v3eWClRuh7OJPFpaU3Ai2DNECQE"
-access_key = "1486218021987565568-m592gA9bOh1jJRiCozcFNUrme2vBJ6"
-access_secret = "53mqfnis0JKfSLwumhoafWk5zqS1zv7iTaBct3HUdxDfG"
+consumer_key = "xxxxxxxxxxxxxxxx"
+consumer_secret = "xxxxxxxxxxxxxxxx"
+access_key = "xxxxxxxxxxxxxxxx"
+access_secret = "xxxxxxxxxxxxxxxx"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
